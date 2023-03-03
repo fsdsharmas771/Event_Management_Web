@@ -1,0 +1,185 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    margin:0px;
+    padding: 0px;
+    background-color: rgb(35, 34, 34);
+    color: white;
+}
+.theme-color{
+    color:rgb(62, 62, 244) ;
+}
+
+/* header */
+
+header{
+    border:1px solid black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    background-color: rgb(66, 64, 64);
+}
+.logo::first-letter{
+    color: blue;
+}
+.nav-bar{
+    margin-left: 63%;
+}
+.nav-bar a{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+.nav-bar a:hover{
+    color:rgb(62, 62, 244) ;
+}
+
+/* main */
+
+main{
+    text-align: center;
+}
+
+/* home */
+
+#home h1{
+    margin:0px;
+}
+.button{
+    width:100px;
+    height:40px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(150, 147, 147);
+    color: white;
+}
+.button:hover{
+    cursor: pointer;
+    background-color:rgb(62, 62, 244)  ;
+}
+
+/* service */
+
+#service>div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.servise-template{
+    background-color: rgb(66, 64, 64);
+    width:300px;
+    height:200px;
+    margin:8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.servise-template p{
+    margin-top: 0px;
+    color: rgb(176, 172, 172);
+}
+.service-icon{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(62, 62, 244) ;
+    margin-top: 10px;
+}
+
+/* about */
+
+.about-subpart{
+    display: flex;
+    text-align: left;
+    padding: 5px;
+    justify-content: center;
+}
+.about-subpart div{
+    margin:0px;
+    width:425px;
+}
+.about-subpart div img{
+    width: 90%;
+}
+.about-subpart div h3{
+    margin-top: 0px;
+}
+.about-subpart div p{
+    color: rgb(212, 207, 207);
+}
+
+/* gellary */
+
+#gallery>div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery-image-template{
+    background-color: rgb(66, 64, 64);
+    width:300px;
+    height:200px;
+    margin:8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.gallery-image-template img{
+    width: 95%;
+    height: 95%;
+}
+.gallery-image-template img:hover{
+    height: 70%;
+}
+
+/* price */
+
+#price{
+    margin-left:12%;
+    width: 80%;
+}
+.price-template{
+    background-color: rgb(66, 64, 64);
+    width:230px;
+    height:375px;
+    margin:5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.price-template-tag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:35px;
+    background-color:rgb(62, 62, 244) ;
+}
+
+#price>div{
+    display: flex;
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+footer span p i{
+    color: rgb(62, 62, 244);
+    margin-right: 5px;
+}
+footer span p:hover{
+    color: white;
+}
+#quick-links p a{
+    text-decoration: none;
+    color: white;
+}
